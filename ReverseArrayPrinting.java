@@ -12,7 +12,7 @@ public class ReverseArrayPrinting {
 		
 		System.out.println("");
 		int[] arr1 = {1 , 3 , -2 , 0 , -6 , 7};
-		for(int j = 0; j <= arr1.length; j++) {
+		for(int j = 0; j < arr1.length; j++) {
 			if(arr1[j] > 0) {
 				System.out.println("Positive - " + arr1[j]);
 			}
