@@ -1,0 +1,20 @@
+package inheritance;
+import java.util.Scanner;
+public class StringPalindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String reverse = "";
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Enter your String - ");
+		String string = sc.nextLine();
+		
+		
+		
+		sc.close();
+		
+	}
+
+}
